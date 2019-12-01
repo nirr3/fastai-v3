@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/l/scl/AACtnxm6T6MpAJ-h2DeBqWVzYKYRMwRR5Ys'
+export_file_url = 'https://www.dropbox.com/s/gb17ezqcet0bnod/model.pkl?dl=1'
 export_file_name = 'model.pkl'
 
 classes = ['AM General Hummer SUV 2000', 'Acura Integra Type R 2001', 'Acura RL Sedan 2012', 
